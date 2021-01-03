@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>员工界面</title>
+    <link href="css/employee_login.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+        <div class="titletxt">
+            <p>员工工资管理系统</p>
+        </div>
+        <form action="EmployeeLoginServlet" method="post" onsubmit="return validate()">
+            <div class="loginArea">
+                <div class="button_type">
+                    <button type="button"><a href="employee_login.html">员工</a></button>
+                    <button type="button"><a href="admin_login.html">管理员</a></button>
+                </div>
+                <div class="account_pass">
+                    <input type="text" placeholder="账号"  maxlength="20" name="account">
+                    <input type="password" placeholder="密码" maxlength="15" name="password">
+                </div>
+                <div class="button_use">
+                    <input type="submit" value="登录">
+                    <button type="button"><a href="register.html">注册</a></button>
+                </div>
+            </div>
+        </form>
+</body>
+</html>

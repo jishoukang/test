@@ -1,0 +1,263 @@
+body{
+    background-image: url("images/loginbackground.jpg");
+    background-size: cover;
+    margin: 0;
+}
+.navigation{
+    width: 99.9%;
+    height: 100px;
+    background-color:royalblue;
+    border: 1px solid royalblue;
+    border-bottom-color:darkgray;
+
+}
+.navigation .title{
+    color: white;
+    font-size: 70px;
+    font-family: 微软雅黑;
+    text-shadow:1px 1px 5px black;
+    border: 1px solid rgba(0,0,0,0);
+}
+.navigation .title p{
+    margin-top:0;
+}
+.form-lable-list{
+    width: 320px;
+    height: 863px;
+    border:1px solid;
+    border-bottom-color: rgba(0,0,0,0);
+    border-top-color: rgba(0,0,0,0);
+    border-left-color: rgba(0,0,0,0);
+    border-right-color:darkgray;
+    float: left;
+}
+.main-form .form-lable-list .emp-info-area{
+    width: 320px;
+    height:50px;
+    margin-top:4px;
+}
+.main-form .form-lable-list .emp-info-area .emp-mg{
+    width:320px;
+    height:40px;
+    background-color: lightyellow;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.main-form .form-lable-list .emp-info-area .emp-mg a,a:active,a:visited{
+    margin-left: 100px;
+    font-family: 微软雅黑;
+    color: #0000EE;
+    font-size: 25px;
+    text-decoration: none;
+}
+.main-form .form-lable-list .emp-info-area .emp-mg a:hover{
+    color: green;
+}
+.main-form .form-lable-list .sly-info-area{
+    width: 320px;
+    height:50px;
+    cursor: pointer;
+    margin-top:5px;
+}
+.main-form .form-lable-list .sly-info-area .sly-mg{
+    width:320px;
+    height:40px;
+    background-color: lightyellow;
+    border-radius: 30px;
+}
+.main-form .form-lable-list .sly-info-area .sly-mg a,a:active,a:visited{
+    margin-left: 100px;
+    font-family: 微软雅黑;
+    color: #0000EE;
+    font-size: 25px;
+    text-decoration: none;
+}
+.main-form .form-lable-list .sly-info-area .sly-mg a:hover{
+    color: green;
+}
+.main-form .form-lable-list .sly-gvot-area{
+    width: 320px;
+    height:50px;
+    cursor: pointer;
+    margin-top:5px;
+
+}
+.main-form .form-lable-list .sly-gvot-area .sly-gv{
+    width:320px;
+    height: 50px;
+    background-color: lightyellow;
+    border-radius: 30px;
+}
+.main-form .form-lable-list .sly-gvot-area .sly-gv a,a:active,a:visited{
+    margin-left: 100px;
+    font-family: 微软雅黑;
+    color: #0000EE;
+    font-size: 25px;
+    text-decoration: none;
+}
+.main-form .form-lable-list .sly-gvot-area .sly-gv a:hover{
+    color: green;
+}
+.main-form .form-lable-list .sly-sts-area{
+    width: 320px;
+    height:50px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.main-form .form-lable-list .sly-sts-area .sly-sts{
+    width:320px;
+    height: 50px;
+    background-color: lightyellow;
+    border-radius: 30px;
+}
+.main-form .form-lable-list .sly-sts-area .sly-sts a,a:active,a:visited{
+    margin-left: 100px;
+    font-family: 微软雅黑;
+    color: #0000EE;
+    font-size: 25px;
+    text-decoration: none;
+}
+.main-form .form-lable-list .sly-sts-area .sly-sts a:hover{
+    color: green;
+}
+.main-form .form-lable-list .fdb-mng-area{
+    width: 320px;
+    height:50px;
+    cursor: pointer;
+    margin-top:15px;
+}
+.main-form .form-lable-list .fdb-mng-area .df-mg{
+    width:320px;
+    height: 50px;
+    background-color: lightyellow;
+    border-radius: 30px;
+}
+.main-form .form-lable-list .fdb-mng-area .df-mg a,a:active,a:visited{
+    margin-left: 100px;
+    font-family: 微软雅黑;
+    color: #0000EE;
+    font-size: 25px;
+    text-decoration: none;
+}
+.main-form .form-lable-list .fdb-mng-area .df-mg a:hover{
+    color: green;
+}
+.main-form .form-content{
+    float: left;
+    width: 1595px;
+    height: 863px;
+}
+.main-form .form-content .content-title{
+    width: 1430px;
+    height:100px;
+    margin-top: 0;
+    border-bottom:2px solid gainsboro;
+    border-top: 1px solid;
+    border-top-color: rgba(0,0,0,0);
+    margin-left: 80px;
+
+}
+.main-form .form-content .content-title p{
+    font-size: 45px;
+    font-family: 微软雅黑;
+    margin-top:25px;
+
+}
+.main-form .form-content .content-list{
+    width: 1430px;
+    height:710px;
+    border:1px solid gainsboro;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.main-form .form-content .content-list .content-list-title{
+    width:1430px ;
+    height: 70px;
+    border: 1px solid rgba(0,0,0,0);
+}
+.main-form .form-content .content-list .content-list-title p{
+    font-family: "微软雅黑 Light";
+    font-size: 18px;
+    margin-left: 10px;
+}
+.main-form .form-content .content-list .content-list-frame{
+    width: 1400px;
+    height: 45px;
+    margin-left:12px;
+    /*border: 1px solid blue;*/
+}
+.main-form .form-content .content-list .content-list-frame .content-search{
+    float: left;
+    width: 390px;
+    height: 50px;
+}
+.main-form .form-content .content-list .content-list-frame .content-search .search-frame{
+    float: left;
+}
+.main-form .form-content .content-list .content-list-frame .content-search .search-frame input{
+    width: 300px;
+    height: 36px;
+}
+.main-form .form-content .content-list .content-list-frame .content-search .search-button input{
+    width:80px;
+    height: 42px;
+    background-color:#5FB878;
+    font-family:新宋体;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.main-form .form-content .content-list .content-list-frame .content-search .search-button input:hover{
+    background-color: limegreen;
+    cursor: pointer;
+}
+.main-form .form-content .content-list .content-list-frame .content-search .search-button{
+    float: left;
+}
+.main-form .form-content .content-list .content-list-frame .content-add{
+    float: left;
+    width: 100px;
+    height: 50px;
+}
+.main-form .form-content .content-list .content-list-frame .content-add input{
+    margin-left: 20px;
+    margin-left: 440px;
+    width:80px;
+    height: 42px;
+    background-color:darkorange;
+    color: white;
+    font-family:新宋体;
+    cursor: pointer;
+    font-size: 18px;
+}
+.main-form .form-content .content-list .content-list-frame .content-add input:hover{
+    background-color: orange;
+}
+.main-form .form-content .content-list .content-list-form table tr input:first-child{
+    background-color: #D20A0A;
+    color: white;
+    font-size: 18px;
+    font-family: 新宋体;
+    cursor: pointer;
+}
+.main-form .form-content .content-list .content-list-form table tr input:first-child:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.main-form .form-content .content-list .content-list-form table tr input:last-child{
+    background-color: #007DDB;
+    color: white;
+    font-size: 18px;
+    font-family: 新宋体;
+    cursor: pointer;
+}
+.main-form .form-content .content-list .content-list-form table tr input:last-child:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+.main-form .form-content .content-list .content-list-form .odd{
+    background-color: white;
+}
+.main-form .form-content .content-list .content-list-form .even{
+    background-color: floralwhite;
+}

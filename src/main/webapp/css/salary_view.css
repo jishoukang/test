@@ -1,0 +1,66 @@
+body{
+    background-image: url("images/loginbackground.jpg");
+    background-size: cover;
+    margin: 0;
+}
+*{
+    list-style: none;
+}
+.navigation{
+    width: 99.9%;
+    height: 50px;
+    background-color:black;
+    border: 1px solid grey;
+    display: inline-block;
+}
+.navigation .top-nav{
+    margin-left:430px ;
+    margin-top:10px;
+}
+.navigation .top-nav .nav-list{
+    color: white;
+    font-size: 20px;
+    font-family: 华文宋体;
+    margin-left: -200px;
+    width: 150px;
+    display: inline-block;
+}
+.navigation .top-nav .nav-list a,a:active{
+    color: white;
+    text-decoration: none;
+}
+.navigation .top-nav .nav-list a:hover{
+    color: lightskyblue;
+}
+.nav-salary a:hover{
+    color: royalblue;
+}
+.nav-salary a,a:visited{
+    color: white;
+    text-decoration: none;
+}
+/*.salary-form .form-background{*/
+/*    width: 99.99%;*/
+/*    height: 666px;*/
+/*    margin-top: -50px;*/
+/*    background-color: grey;*/
+/*    opacity: 0.3;*/
+/*}*/
+.form-tltle{
+    width:1000px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 430px;
+    margin-top: 50px;
+}
+.form-tltle p{
+    font-family: 微软雅黑;
+    font-size: 50px;
+    color: floralwhite;
+    text-shadow: 3px 3px 3px #656565;
+    text-align: center;
+    line-height: 20px;
+}
+.salary-table{
+    border: 1px dashed cornflowerblue;
+}

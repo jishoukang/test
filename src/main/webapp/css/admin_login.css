@@ -1,0 +1,95 @@
+body{
+    background-image: url("images/loginbackground.jpg");
+    background-size: cover;
+}
+.titletxt p{
+    margin-top: 400px;
+    margin-left: 50px;
+    font-size: 80px;
+    color: white;
+    text-shadow: 3px 3px 3px #656565;
+    /*color:lightgray;*/
+}
+.loginArea{
+    width: 450px;
+    height:325px;
+    background-color: white;
+    border-color: #656565;
+    float: right;
+    margin-right: 420px;
+    margin-top: -300px;
+    border: 1px rgba(52,52,52,.1) solid;
+}
+.loginArea .button_type{
+    width:450px;
+    height: 73.25px;
+}
+.loginArea .account_pass{
+    width: 450px;
+    height:178.5px;
+}
+.loginArea .button_use{
+    width: 450px;
+    height: 73.25px;
+}
+.loginArea .account_pass .account{
+    width: 450px;
+    height: 20px;
+    background-color: rosybrown;
+}
+.loginArea button{
+    margin-left: 90px;
+    margin-top: 13px;
+}
+.loginArea button:first-child{
+    width:80px;height: 45px;
+    background-color: white;
+    border: none;
+    opacity: 0.9;
+}
+.loginArea button:first-child a{
+    color: grey;
+}
+.loginArea button a,a:hover,a:active{
+    font-size: 17px;
+    font-family:华文宋体;
+    text-decoration: none;
+}
+.loginArea button:last-child{
+    width:80px;height: 45px;
+    background-color: white;
+    border: none;
+    opacity: 0.9;
+}
+.loginArea button:last-child a{
+    color:black;
+}
+.loginArea .button_type{
+    box-shadow: 0 0.5px 0.5px 0 gray;
+}
+.loginArea .account_pass input{
+    width: 260px;
+    height: 30px;
+}
+.loginArea .account_pass input:first-child{
+    margin-top: 30px;
+    margin-left: 95px;
+}
+.loginArea .account_pass input:last-child{
+    margin-top: 30px;
+    margin-left: 95px;
+}
+.loginArea .button_use input{
+    width: 263px;
+    height: 50px;
+    margin-top:-20px;
+    margin-left: 93px;
+    background-color: #19B758;
+    font-family: 黑体;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.loginArea .button_use input:hover{
+    color:coral;
+}

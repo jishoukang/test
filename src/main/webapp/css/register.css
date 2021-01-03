@@ -1,0 +1,82 @@
+body{
+    background-image: url("images/loginbackground.jpg");
+    background-size: cover;
+    font-size: 20px;
+    font-family: 华文宋体;
+}
+.form_pos{
+    position: relative;
+}
+*{
+    list-style: none;
+}
+.navigation{
+    width:101.4%;
+    height: 50px;
+    margin-left:-20px;
+    margin-top: -10px;
+    background-color:black;
+    border: 1px solid grey;
+    display: inline-block;
+}
+.navigation .top-nav{
+    margin-left:430px ;
+    margin-top:10px;
+}
+.navigation .top-nav .nav-list{
+    color: white;
+    font-size: 20px;
+    font-family: 黑体;
+    width: 150px;
+    display: inline-block;
+}
+.navigation .top-nav .nav-list a i{
+    margin-left: 1410px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.register_form_back{
+    margin-left: 720px;
+    margin-top:180px;
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    border-radius: 30px;
+    opacity: 0.6;
+}
+.register_form{
+    position: absolute;
+    margin-left: 820px;
+    margin-top: -500px;
+}
+.register_text{
+    position: absolute;
+    width: 450px;
+    height: 80px;
+    margin-left: 720px;
+    margin-top: -600px;
+    background-color: white;
+    border-radius: 30px;
+    opacity: 0.6;
+    box-shadow: 0 1px 2px 0 gray;
+}
+.form_pos .register_form .data{
+    line-height: 60px;
+}
+.form_pos a{
+    font-size: 50px;
+    font-family: 华文彩云;
+    position: absolute;
+    margin-left: 790px;
+    margin-top: -585px;
+}
+.form_pos .register_button input{
+    position: absolute;
+    width: 253px;
+    height: 50px;
+    margin-top:-75px;
+    margin-left: 820px;
+    background-color:lightskyblue;
+    border-color:whitesmoke ;
+    cursor: pointer;
+}
